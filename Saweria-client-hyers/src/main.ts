@@ -17,9 +17,6 @@ app.use(express.json());
 app.post("/skill1", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto skill 1");
@@ -38,9 +35,6 @@ app.post("/skill1", (req: Request, res: Response) => {
 app.post("/skill2", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto skill 2");
@@ -59,9 +53,6 @@ app.post("/skill2", (req: Request, res: Response) => {
 app.post("/skill3", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto skill 3");
@@ -80,9 +71,6 @@ app.post("/skill3", (req: Request, res: Response) => {
 app.post("/spell", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto spell");
@@ -101,9 +89,6 @@ app.post("/spell", (req: Request, res: Response) => {
 app.post("/recall", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto recall recall");
@@ -125,9 +110,6 @@ app.post("/recall", (req: Request, res: Response) => {
 app.post("/surrender", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto surrender");
@@ -149,9 +131,6 @@ app.post("/surrender", (req: Request, res: Response) => {
 app.post("/endstream", (req: Request, res: Response) => {
   const { donator_name, amount_raw }: DonationData = req.body;
 
-  console.log(
-    "========================================================================"
-  );
   console.log("Donasi telah didapatkan dari: " + donator_name);
   console.log("Donasi berjumlah: Rp." + amount_raw);
   console.log("Menjalankan fitur auto endstream");
